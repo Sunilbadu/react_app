@@ -15,7 +15,9 @@ function App() {
   return (
     <div>
       <h1>Main App</h1>
-      <Hello />
+      <Hello name="badu " age  = {15} />
+      <Hello name="welcome" age  = {15}/>
+      <Hello name="okY" age  = {25} />
     </div>
   );
 }
