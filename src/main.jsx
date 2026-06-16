@@ -8,3 +8,11 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+const nums = [1, 2, 3, 4, 5, 6];
+
+
+const squaredEvens = nums
+  .filter(x => x % 2 === 0)   
+  .map(x => x * x);           
+
+console.log("Squared evens:", squaredEvens);
