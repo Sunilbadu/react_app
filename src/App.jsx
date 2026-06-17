@@ -11,10 +11,11 @@
 // export default App;
 import Hello  from "./Hello";
 import State from "./state"
+import Use from "./typeusestate"
 
 function App() {
   return (
-    <State/>
+   <Use/>
   );
 }
 
