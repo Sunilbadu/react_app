@@ -10,12 +10,13 @@
 
 // export default App;
 import Hello  from "./Hello";
-import State from "./state"
-import Use from "./typeusestate"
+import State from "./state";
+import Use from "./typeusestate";
+import Counter from "./counter";
 
 function App() {
   return (
-   <Use/>
+   <Counter/>
   );
 }
 
