@@ -13,10 +13,11 @@ import Hello  from "./Hello";
 import State from "./state";
 import Use from "./typeusestate";
 import Counter from "./counter";
+import Event from "./event";
 
 function App() {
   return (
-   <Counter/>
+   <Event/>
   );
 }
 
