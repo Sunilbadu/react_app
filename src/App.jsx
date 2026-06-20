@@ -15,10 +15,11 @@ import Use from "./typeusestate";
 import Counter from "./counter";
 import Event from "./event";
 import Forms from "./form";
+import Name from "./mini";
 
 function App() {
   return (
-   <Forms/>
+   <Name/>
   );
 }
 
