@@ -14,10 +14,11 @@ import State from "./state";
 import Use from "./typeusestate";
 import Counter from "./counter";
 import Event from "./event";
+import Forms from "./form";
 
 function App() {
   return (
-   <Event/>
+   <Forms/>
   );
 }
 
