@@ -16,10 +16,11 @@ import Counter from "./counter";
 import Event from "./event";
 import Forms from "./form";
 import Name from "./mini";
+import Mapy from "./nap";
 
 function App() {
   return (
-   <Name/>
+   <Mapy/>
   );
 }
 
