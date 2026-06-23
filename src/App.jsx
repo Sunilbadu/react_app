@@ -18,10 +18,24 @@ import Forms from "./form";
 import Name from "./mini";
 import Mapy from "./nap";
 
+import { useState } from "react";
+
 function App() {
+  const [name, setName] = useState("");
+
   return (
-   <Mapy/>
+    <>
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+
+      <h1>{name}</h1>
+    </>
   );
 }
+
+export default App;
 
 export default App;
