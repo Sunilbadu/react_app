@@ -1,8 +1,8 @@
-const [city, setCity] = useState("");
+// const [city, setCity] = useState("");
 
-<input
- value={city}
- onChange={(e) => setCity(e.target.value)}
-/>
+// <input
+//  value={city}
+//  onChange={(e) => setCity(e.target.value)}
+// />
 
-<h1>{city}</h1>
+// <h1>{city}</h1>

@@ -19,23 +19,32 @@ import Name from "./mini";
 import Mapy from "./nap";
 
 import { useState } from "react";
-
-function App() {
-  const [name, setName] = useState("");
-
-  return (
-    <>
-      <input
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-
-      <h1>{name}</h1>
-    </>
-  );
+function handleSubmit(e){
+  e.preventDefault();
+  alert("your form submitted sucessfully")
 }
 
-export default App;
+function App() {
+    const [name , setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [age, setAge] = useState();
+  
+
+  return(
+<>
+  
+<form onSubmit={handleSubmit}>
+   <input type="text" placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
+    <input type="email" placeholder="abc@gmail.com" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+    <input type="number" placeholder="age" value={age} onChange={(e)=>setAge(e.target.value)}/>
+    <button type="submit">submit</button>
+</form>
+   
+</>
+  )
+
+}
+
 
 export default App;
+
